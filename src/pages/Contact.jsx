@@ -1,6 +1,6 @@
-import { FaMobileAlt } from "react-icons/fa";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { MdMailOutline } from "react-icons/md";
+// import { FaMobileAlt } from "react-icons/fa";
+// import { FaMapMarkerAlt } from "react-icons/fa";
+// import { MdMailOutline } from "react-icons/md";
 import { motion } from "framer-motion";
 export default function Contact() {
   return (
@@ -45,7 +45,7 @@ export default function Contact() {
       >
         Next Law Practice
       </motion.h2>
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -91,7 +91,7 @@ export default function Contact() {
             <p className="icon-value">email@cralawfirm.com</p>
           </div>
         </div>
-      </motion.div>
+      </motion.div> */}
 
       <motion.div
         initial={{ opacity: 0, y: 50 }}

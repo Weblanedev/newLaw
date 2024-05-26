@@ -12,9 +12,10 @@ import Article from "./pages/Article";
 // import Success from "./pages/Success";
 
 import DeportationDefense from "./pages/practice-areas/DeportationDefense";
-import GreenCard from "./pages/practice-areas/GreenCard";
 import IntellectualProperty from "./pages/practice-areas/IntellectualProperty";
 import CorporateLaw from "./pages/practice-areas/CorporateLaw";
+import RealEstateLaw from "./pages/practice-areas/Citizenship";
+import LitigationandDisputeResolution from "./pages/practice-areas/GreenCard";
 
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -22,8 +23,7 @@ import Header from "./components/Header";
 import ScrollToTop from "./helpers/ScrollToTop";
 
 import "./style.css";
-import RealEstateLaw from "./pages/practice-areas/Citizenship";
-import LitigationandDisputeResolution from "./pages/practice-areas/GreenCard";
+
 
 export default function App() {
   const location = useLocation();
