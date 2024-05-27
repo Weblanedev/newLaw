@@ -1,6 +1,6 @@
-// import { FaMobileAlt } from "react-icons/fa";
-// import { FaMapMarkerAlt } from "react-icons/fa";
-// import { MdMailOutline } from "react-icons/md";
+import { FaMobileAlt } from "react-icons/fa";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { MdMailOutline } from "react-icons/md";
 import { motion } from "framer-motion";
 export default function Contact() {
   return (
@@ -45,7 +45,7 @@ export default function Contact() {
       >
         Next Law Practice
       </motion.h2>
-      {/* <motion.div
+      <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -68,7 +68,9 @@ export default function Contact() {
             <FaMobileAlt className="icon" />
             <p className="icon-title">Phone</p>
             <p className="icon-value">
-              <a href="tel:8174826570">817-482-6570</a>
+            <a href="tel:+234891082144">
+              +234-809-108-2144
+            </a>
             </p>
           </div>
           <div>
@@ -76,22 +78,20 @@ export default function Contact() {
             <p className="icon-title">Address</p>
             <p className="icon-value">
               {" "}
-              <a
-                href="https://www.google.com/maps/place/Crocker+Russell+%26+Associates/@32.6075827,-97.1558186,17z/data=!4m12!1m6!3m5!1s0x864e63df1e496743:0xac92bdccd1479d3b!2sCrocker+Russell+%26+Associates!8m2!3d32.6075876!4d-97.1533429!3m4!1s0x864e63df1e496743:0xac92bdccd1479d3b!8m2!3d32.6075876!4d-97.1533429"
-                target="_blank"
-                rel="noreferrer"
+              <p
+                href="#"
               >
-                2401 Callender Road Suite 103 Mansfield, TX 76063
-              </a>
+                1 Adedeji Adekola Street, Off Freedom Way, Lekki Phase 1
+              </p>
             </p>
           </div>
           <div>
             <MdMailOutline className="icon" />
             <p className="icon-title">Email</p>
-            <p className="icon-value">email@cralawfirm.com</p>
+            <p className="icon-value">contact@nextlawpractice.com</p>
           </div>
         </div>
-      </motion.div> */}
+      </motion.div>
 
       <motion.div
         initial={{ opacity: 0, y: 50 }}
@@ -123,7 +123,7 @@ export default function Contact() {
             </p>
             <p>
               For immediate assistance, please call our office number at{" "}
-              <a href="tel:8174826570">817-482-6570</a>, and our administrative
+              <a href="tel:+2348091082144">+234-809-108-2144</a>, and our administrative
               assistant will be happy to help.
             </p>
           </div>

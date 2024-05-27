@@ -81,25 +81,23 @@ export default function Footer() {
         </p>
         <ul>
           <li>
-            <a href="tel:18006666">
+            <a href="tel:+234891082144">
               <MdCall />
-              1-800-6666
+              +234-809-108-2144
             </a>
           </li>
           <li>
             <a
-              href="https://www.google.com/maps/place/Crocker+Russell+%26+Associates/@32.6075827,-97.1558186,17z/data=!4m12!1m6!3m5!1s0x864e63df1e496743:0xac92bdccd1479d3b!2sCrocker+Russell+%26+Associates!8m2!3d32.6075876!4d-97.1533429!3m4!1s0x864e63df1e496743:0xac92bdccd1479d3b!8m2!3d32.6075876!4d-97.1533429"
-              target="_blank"
-              rel="noreferrer"
+              href="#"
             >
               <MdLocationPin />
-              Directions
+              1 Adedeji Adekola Street, Off Freedom Way, Lekki Phase 1
             </a>
           </li>
           <li>
             <Link to="/contact">
               <MdMail />
-              email@cralawfirm.com
+              contact@nextlawpractice.com
             </Link>
           </li>
         </ul>
