@@ -43,7 +43,7 @@ export default function App() {
     fetchData();
   }, []);
 
-  const blogRouteElements = blogPosts.map((post) => {
+  const blogRouteElements = Array.isArray(blogPosts) && blogPosts.map((post) => {
     return (
       <Route
         exact
@@ -53,6 +53,17 @@ export default function App() {
       />
     );
   });
+
+  // const blogRouteElements = blogPosts.map((post) => {
+  //   return (
+  //     <Route
+  //       exact
+  //       key={post.id}
+  //       path={`/blog/article/${post.id}`}
+  //       element={<Article post={post} />}
+  //     />
+  //   );
+  // });
 
   return (
     <>
