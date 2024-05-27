@@ -33,7 +33,7 @@ export default function App() {
     try {
       await fetch(".netlify/functions/fetchBlog")
         .then((res) => res.json())
-        .then((data) => setBlogPosts(data.data));
+        .then((data) => setBlogPosts(data?.data));
     } catch (err) {
       console.log(err);
     }
