@@ -88,7 +88,7 @@ export default function Footer() {
           </li>
           <li>
             <a
-              href="#"
+              href="/contact"
             >
               <MdLocationPin />
               1 Adedeji Adekola Street, Off Freedom Way, Lekki Phase 1

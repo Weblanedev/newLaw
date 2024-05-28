@@ -79,7 +79,6 @@ export default function Contact() {
             <p className="icon-value">
               {" "}
               <p
-                href="#"
               >
                 1 Adedeji Adekola Street, Off Freedom Way, Lekki Phase 1
               </p>
