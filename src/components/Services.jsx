@@ -35,10 +35,15 @@ export default function Services() {
           <h4>Real Estate Law</h4>
           <p>Legal services for buying, selling, leasing, and developing commercial properties.</p>
         </Link>
-        <Link to="/visa" className="service">
+        <Link to="/litigation-and-dispute-resolution" className="service">
           <FaRegIdBadge className="icon" />
           <h4>Litigation and Dispute Resolution</h4>
           <p>Representing businesses in commercial disputes, including breach of contract, fraud, and business torts.</p>
+        </Link>
+        <Link to="/regulatory-engagement" className="service">
+          <FaRegIdBadge className="icon" />
+          <h4>Regulatory Engagement          </h4>
+          <p>We offer expert regulatory engagement services to help businesses navigate Nigeria's complex legal and policy landscape</p>
         </Link>
       </div>
       <div className="services-text">

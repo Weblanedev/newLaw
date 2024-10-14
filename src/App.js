@@ -84,7 +84,7 @@ export default function App() {
           <Route exact path="/corporate-law" element={<CorporateLaw />} />
           <Route
             exact
-            path="/deportation-defense"
+            path="/regulatory-engagement"
             element={<DeportationDefense />}
           />
 

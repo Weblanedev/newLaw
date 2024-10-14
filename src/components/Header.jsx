@@ -102,6 +102,15 @@ export default function Header(props) {
                   Litigation and Dispute
                 </Link>
               </li>
+              <li>
+                <Link
+                  className="nav__dropdown-link"
+                  to="/regulatory-engagement"
+                  onClick={toggleMobileNav}
+                >
+                  Regulatory Engagement
+                </Link>
+              </li>
             </ul>
           </li>
           {/* ------- End Dropdown ------- */}
@@ -127,6 +136,7 @@ export default function Header(props) {
           className={`nav__mobile-button__hamburger ${isMobileOpen ? "nav__mobile-button__hamburger-open" : ""
             }`}
         >
+          <span></span>
           <span></span>
           <span></span>
           <span></span>

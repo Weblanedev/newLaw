@@ -48,6 +48,12 @@ export default function Sidebar() {
               Litigation and Dispute
             </Link>
           </li>
+          <li>
+            <Link to="/regulatory-engagement">
+              <CgChevronRight />
+              Regulatory Engagement
+            </Link>
+          </li>
         </ul>
       </motion.div>
       <motion.div

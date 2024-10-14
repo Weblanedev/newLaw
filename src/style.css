@@ -44,7 +44,7 @@
 }
 @media (hover: hover) and (min-width: 62.5em) {
   .nav__menu .nav__menu-item:hover .nav__dropdown {
-    height: 190px;
+    height: 250px;
     opacity: 1;
   }
 }
@@ -64,7 +64,7 @@
   flex-direction: column;
   position: absolute;
   gap: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .nav__menu .nav__dropdown li {
   margin-top: 1rem;
@@ -125,7 +125,7 @@
     padding: 0;
   }
   .nav .nav__dropdown.mobile-dropdown__open {
-    height: 220px;
+    height: 260px;
     opacity: 1;
   }
 }
@@ -166,8 +166,9 @@
 #about .about-image {
   margin: 2rem;
   padding-top: 115%;
-  background-image: url(https://images.pexels.com/photos/4427610/pexels-photo-4427610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-  background-size: cover;
+  background-image: url(https://th.bing.com/th/id/OIP.7fSyEV_2JCzImamH0_K7WQAAAA?rs=1&pid=ImgDetMain);
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 @media (max-width: 56.25em) {
@@ -190,7 +191,7 @@
   height: 100vh;
   background-position: center;
   background-size: cover;
-  background-image: url(https://images.pexels.com/photos/4427430/pexels-photo-4427430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(https://th.bing.com/th/id/R.558b594bc99d4f3dedc7b7223fa2b44f?rik=5%2bwWDRS3kO%2bs5A&pid=ImgRaw&r=0);
   position: relative;
   max-width: 100%;
 }
